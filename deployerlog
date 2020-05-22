@@ -1,0 +1,11 @@
+/var/log/deployer/deployer.log
+{
+	rotate 5
+	daily
+	missingok
+	notifempty
+	size +10M
+	compress
+	copytruncate
+	create 640 ubuntu adm
+}

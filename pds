@@ -1,0 +1,46 @@
+#!/bin/bash
+
+set -e -x
+
+case "$1" in
+  "start")
+    if [ -d ~/.bosh_plugin/lock ]; then
+      if [ "$(ls -A ~/.bosh_plugin/lock)" ]; then
+        rm ~/.bosh_plugin/lock/*
+      fi
+    fi
+
+    cd -P ~/OPENPAAS-IEDA-WEB
+    ./deployer &
+    ;;
+
+  "stop")
+    if [ -d ~/.bosh_plugin/lock ]; then
+      if [ "$(ls -A ~/.bosh_plugin/lock)" ]; then
+        rm ~/.bosh_plugin/lock/*
+      fi
+    fi
+
+    kill -9 $(ps aux | grep '[j]ava' | grep 'OPENPAAS-IEDA-WEB-CONTROLLER-1.0.0--CONTROLLER-SNAPSHOT.jar' | awk '{print $2}') > /dev/null 2>&1
+    ;;
+
+  "restart")
+    if [ -d ~/.bosh_plugin/lock ]; then
+      if [ "$(ls -A ~/.bosh_plugin/lock)" ]; then
+        rm ~/.bosh_plugin/lock/*
+      fi
+    fi
+
+    kill -9 $(ps aux | grep '[j]ava' | grep 'OPENPAAS-IEDA-WEB-CONTROLLER-1.0.0--CONTROLLER-SNAPSHOT.jar' | awk '{print $2}') > /dev/null 2>&1
+    cd -P ~/OPENPAAS-IEDA-WEB
+    ./deployer &
+    ;;
+
+  *)
+    echo "Unrecognized option $1"
+    echo 'Valid options are: start|stop|restart'
+    ;;
+esac
+
+exit 0
+
