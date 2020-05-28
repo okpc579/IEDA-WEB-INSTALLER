@@ -39,7 +39,7 @@ BOSH는 클라우드 환경에 서비스를 배포하고 소프트웨어 릴리�
 
 플랫폼 설치 자동화를 이용해서 클라우드 환경에 PaaS-TA를 설치하기 위해서는 인프라 설정, 스템셀 소프트웨어 릴리즈, Manifest 파일, 인증서 파일 5가지 요소가 필요하다. 스템셀은 클라우드 환경에 VM을 생성하기 위해 사용할 기본 이미지이고, 소프트웨어 릴리즈는 VM에 설치할 소프트웨어 패키지들을 묶어 놓은 파일이고, Manifest파일은 스템셀과 소프트웨어 릴리즈를 이용해서 서비스를 어떤 식으로 구성할지를 정의해 놓은 명세서이다. 다음 그림은 BOOTSTRAP을 이용하여 PaaS-TA를 설치하는 절차이다.
 
-![install_flow.png](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/install_flow.png?raw=true)
+![install_flow.png](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/install_flow.png?raw=true)
 
 ## <div id='5'/>2.1  플랫폼 설치 자동화 관리
 
@@ -54,14 +54,14 @@ BOSH는 클라우드 환경에 서비스를 배포하고 소프트웨어 릴리�
 1.	사용자 “등록” 버튼을 클릭 후 사용자 정보 입력 및 해당 사용자의 권한을 선택하여 “확인” 버튼을 클릭한다.
 2.	사용자 등록 후 초기 비밀번호는 “1234” 이며, 최초 로그인 후 비밀번호를 변경할 수 있다.
 
-![user_add.png](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/user_add.png?raw=true)
+![user_add.png](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/user_add.png?raw=true)
 
 ### 2. *로그인 계정 수정*
 
 1.	사용자 “수정” 버튼을 클릭 후 사용자 정보 및 해당 권한을 수정하여 “확인” 버튼을 클릭한다.
 2.	관리자는 선택한 사용자의 아이디는 수정할 수 없지만 비밀번호를 변경할 수 있다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/user_modify.png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/user_modify.png?raw=true)
 
 
 
@@ -115,7 +115,7 @@ BOSH는 클라우드 환경에 서비스를 배포하고 소프트웨어 릴리�
 
 **가이드에서는 버전 Ubuntu Xenial 315.64를 다운로드 하였다.**
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/%EC%8A%A4%ED%85%9C%EC%85%80%EB%93%B1%EB%A1%9D.png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EC%8A%A4%ED%85%9C%EC%85%80%EB%93%B1%EB%A1%9D.png?raw=true)
 
 ※	스템셀 등록 입력 정보
 
@@ -138,7 +138,7 @@ BOOTSTRAP을 설치하기 위해서는 BOSH 릴리즈와 BOSH CPI릴리즈 2개�
 
     [http://bosh.io/releases/github.com/cloudfoundry/bosh?all=1](http://bosh.io/releases/github.com/cloudfoundry/bosh?all=1)
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D.png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D.png?raw=true)
 
 **본 가이드에서는 v270.2.0을 다운로드 하였다.**
 
@@ -159,7 +159,7 @@ BOOTSTRAP을 설치하기 위해서는 BOSH 릴리즈와 BOSH CPI릴리즈 2개�
 </table>
 
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(cpi).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(cpi).png?raw=true)
 
 **본 가이드에서는 v40.0.0을 다운로드 하였다.**
 
@@ -170,7 +170,7 @@ BOOTSTRAP을 설치하기 위해서는 BOSH 릴리즈와 BOSH CPI릴리즈 2개�
 
     https://bosh.io/releases/github.com/cppforlife/bosh-virtualbox-cpi-release?all=1
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(vr).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(vr).png?raw=true)
 
 **본 가이드에서는 v0.2.0을 다운로드 하였다.**
 
@@ -181,7 +181,7 @@ BOOTSTRAP을 설치하기 위해서는 BOSH 릴리즈와 BOSH CPI릴리즈 2개�
 
     https://bosh.io/releases/github.com/cloudfoundry/garden-runc-release?all=1
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(garden).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(garden).png?raw=true)
 
 **본 가이드에서는 v1.19.3을 다운로드 하였다.**
 
@@ -192,7 +192,7 @@ BOOTSTRAP을 설치하기 위해서는 BOSH 릴리즈와 BOSH CPI릴리즈 2개�
 
     https://bosh.io/releases/github.com/cloudfoundry/bpm-release?all=1
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(bpm).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(bpm).png?raw=true)
 
 **본 가이드에서는 v1.1.0을 다운로드 하였다.**
 
@@ -203,7 +203,7 @@ BOOTSTRAP을 설치하기 위해서는 BOSH 릴리즈와 BOSH CPI릴리즈 2개�
 
     https://bosh.io/releases/github.com/cloudfoundry/os-conf-release?all=1
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(os-conf).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(os-conf).png?raw=true)
 
 **본 가이드에서는 v21.0.0을 다운로드 하였다.**
 
@@ -211,7 +211,7 @@ BOOTSTRAP을 설치하기 위해서는 BOSH 릴리즈와 BOSH CPI릴리즈 2개�
 
 BOOTSTRAP을 설치하기 위해서는 Nats/Director 컴포넌트를 사용하기 위한 인증서 정보, 디렉터 인증서가 필요하며 디렉터 인증서를 생성하기 위해 플랫폼 설치 자동화 웹 화면에서 “환경설정 및 관리” -> “디렉터 인증서 관리” 메뉴로 이동 후 상단에 위치한 “등록” 버튼을 클릭하고, 디렉터 인증서 팝업 화면에서 디렉터 인증서 정보 입력 후 “등록” 버튼을 클릭한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/diretor_credential_add.png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/diretor_credential_add.png?raw=true)
 
 ※	디렉터 인증서 등록 정보
 
@@ -232,13 +232,13 @@ BOOTSTRAP 설치하기 위해 플랫폼 설치 자동화 웹 화면에서 “플
 1.	설치할 클라우드 환경을 선택하는 팝업화면에서 Warden를 선택한다.
 2.	“확인” 버튼을 클릭한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/bootstrap%ED%8C%9D%EC%97%85%EC%B0%BD(%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%ED%99%98%EA%B2%BD).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/bootstrap%ED%8C%9D%EC%97%85%EC%B0%BD(%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%ED%99%98%EA%B2%BD).png?raw=true)
 
 #### 2. *BOOTSTRAP 설치 – 기본 정보*
 
 1.	아래의 기본 정보 입력 후 “다음” 버튼을 클릭한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/bootstrap%ED%8C%9D%EC%97%85%EC%B0%BD(%EA%B8%B0%EB%B3%B8%EC%A0%95%EB%B3%B4%EB%82%B4%EC%97%AD).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/bootstrap%ED%8C%9D%EC%97%85%EC%B0%BD(%EA%B8%B0%EB%B3%B8%EC%A0%95%EB%B3%B4%EB%82%B4%EC%97%AD).png?raw=true)
 
 ※	BOOTSTRAP 기본 정보 입력 정보
 
@@ -262,13 +262,13 @@ BOOTSTRAP 설치하기 위해 플랫폼 설치 자동화 웹 화면에서 “플
 
 1.	Warden 네트워크 정보 입력 후 “다음” 버튼을 클릭한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/bootstrap%ED%8C%9D%EC%97%85%EC%B0%BD(%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%A0%95%EB%B3%B4).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/bootstrap%ED%8C%9D%EC%97%85%EC%B0%BD%20(%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%A0%95%EB%B3%B4).jpg?raw=true)
 
 ※	BOOTSTRAP 네트워크 등록 정보
 
   -  Internal디렉터 내부 IP: Warden Internal Subnet 대역의 아이피, 디렉터 인증서 생성 정보와 같아야 한다.
-  - Internal 네트워크 명: Internal 네트워크의 Network 명
-  - Internal Outbound_network 명: Internal 네트워크의 Outbound_network 명
+  - Internal 네트워크 명: Internal 네트워크의 네트워크 명
+  - Internal 아웃바운드 네트워크 명: Internal 네트워크의 아웃바운드 네트워크 명
   - Internal 서브넷 범위: Internal 네트워크의 Subnet의 범위
   - Internal 게이트웨이: Internal 네트워크의 Subnet의 게이트웨이 주소
   - Internal DNS: 도메인 네임 서버
@@ -277,7 +277,7 @@ BOOTSTRAP 설치하기 위해 플랫폼 설치 자동화 웹 화면에서 “플
 
 1.	Warden 리소스 정보 입력 후 “다음” 버튼을 클릭한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/bootstrap%ED%8C%9D%EC%97%85%EC%B0%BD(%EB%A6%AC%EC%86%8C%EC%8A%A4%EC%A0%95%EB%B3%B4).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/bootstrap%ED%8C%9D%EC%97%85%EC%B0%BD(%EB%A6%AC%EC%86%8C%EC%8A%A4%EC%A0%95%EB%B3%B4).png?raw=true)
 
 ※	BOOTSTRAP 리소스 등록 정보
 
@@ -288,7 +288,7 @@ BOOTSTRAP 설치하기 위해 플랫폼 설치 자동화 웹 화면에서 “플
 1.	생성된 배포 Manifest파일 정보를 이용하여 BOOTSTRAP설치를 실행하고 설치 진행 과정에 대한 로그를 확인한다
 2.	설치가 완료되면 “닫기” 버튼을 클릭한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/bootstrap%ED%8C%9D%EC%97%85%EC%B0%BD(%EC%84%A4%EC%B9%98).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/bootstrap%ED%8C%9D%EC%97%85%EC%B0%BD(%EC%84%A4%EC%B9%98).png?raw=true)
 
 ### <div id='15'/>2.4.5 *디렉터 설정*
 
@@ -298,7 +298,7 @@ BOOTSTRAP설치가 완료되면 BOOTSTRAP 디렉터 정보를 이용해서 플�
 
 계정 및 비밀번호, 포트번호는 “admin/admin/25555”이다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/%EB%94%94%EB%A0%89%ED%84%B0%EC%84%A4%EC%A0%95.png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/cf/%EB%94%94%EB%A0%89%ED%84%B0%EC%84%A4%EC%A0%95.png?raw=true)
 
 ※	디렉터 설정 등록 정보
 
@@ -313,7 +313,7 @@ BOSH를 설치하고 플랫폼 설치 자동화의 디렉터로 설정이 완료
 
 
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/cf_flow.png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/cf/cf_flow.png?raw=true)
 
 ### <div id='17'/>2.5.1 *스템셀 업로드*
 
@@ -323,13 +323,13 @@ https://bosh.io/stemcells/bosh-warden-boshlite-ubuntu-xenial-go_agent
 
 **가이드에서는 버전 Ubuntu Xenial 315.64를 다운로드 하였다.**
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/%EC%8A%A4%ED%85%9C%EC%85%80%EB%93%B1%EB%A1%9D.png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EC%8A%A4%ED%85%9C%EC%85%80%EB%93%B1%EB%A1%9D.png?raw=true)
 
 
 플랫폼 설치 자동화에서 다운받은 vsphere(X) warden(O) 스템셀을 “스템셀 업로드” 화면을 통해 디렉터에 315.64 버전의 스템셀을 업로드 한다. 
 
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/%EC%8A%A4%ED%85%9C%EC%85%80%20%EC%97%85%EB%A1%9C%EB%93%9C.png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/cf/%EC%8A%A4%ED%85%9C%EC%85%80%20%EC%97%85%EB%A1%9C%EB%93%9C.png?raw=true)
 
 ### 2.5.2 *PaaS-TA 릴리즈 사용*
 
@@ -354,7 +354,7 @@ https://bosh.io/stemcells/bosh-warden-boshlite-ubuntu-xenial-go_agent
 		ex) $ unzip {릴리즈 압축 파일 명} # 릴리즈 파일 확장자가 zip인 경우
 	1.3.	아래는 릴리즈 디렉토리의 PaaS-TA 릴리즈 형상 예시 그림이다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/6_%EB%A6%B4%EB%A6%AC%EC%A6%88%EC%97%85%EB%A1%9C%EB%93%9C.jpg?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/cf/6_%EB%A6%B4%EB%A6%AC%EC%A6%88%EC%97%85%EB%A1%9C%EB%93%9C.jpg?raw=true)
 
 ### <div id='18'/>2.5.3 *CF-Deployment 설치*
 
@@ -364,7 +364,7 @@ CF-Deployment를 설치하기 위해 플랫폼 설치 자동화 웹 화면에서
 
 1.	배포에 필요한 기본정보와 도메인 / 로그인 비밀번호를 입력 후 “다음” 버튼을 클릭한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EA%B8%B0%EB%B3%B8%EC%A0%95%EB%B3%B4).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD%20(%EA%B8%B0%EB%B3%B8%EC%A0%95%EB%B3%B4).png?raw=true)
 
 **본 가이드에서는 CF-Deployement 버전으로 Paasta 5.0을 사용하였다.**
 
@@ -386,7 +386,7 @@ CF-Deployment를 설치하기 위해 플랫폼 설치 자동화 웹 화면에서
 1.	Warden의 네트워크 정보 입력 후 “다음” 버튼을 클릭한다.
 2.	“추가” 버튼을 클릭하여 네트워크를 추가하여 AZ를 분산 배치할 수 있다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%A0%95%EB%B3%B4).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%A0%95%EB%B3%B4).png?raw=true)
 
 ※	CF-Deployment 네트워크 등록 정보
 
@@ -402,7 +402,7 @@ CF-Deployment를 설치하기 위해 플랫폼 설치 자동화 웹 화면에서
 1.	Key 생성 정보 입력 후 “Key 생성” 버튼을 클릭한다.
 2.	Key 생성 확인 후 “다음” 버튼을 클릭한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(key%EC%83%9D%EC%84%B1).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(key%EC%83%9D%EC%84%B1).png?raw=true)
 
 ※	CF-Deployment Key 생성 등록 정보
 
@@ -418,7 +418,7 @@ CF-Deployment를 설치하기 위해 플랫폼 설치 자동화 웹 화면에서
 
 1.	CF-Deployment 설치에 필요한 리소스 정보를 입력 후 “다음” 버튼을 클릭한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EB%A6%AC%EC%86%8C%EC%8A%A4%EC%A0%95%EB%B3%B4).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EB%A6%AC%EC%86%8C%EC%8A%A4%EC%A0%95%EB%B3%B4).png?raw=true)
 
 ※	CF-Deployment 설치 리소스 생성 등록 정보
 
@@ -432,7 +432,7 @@ CF-Deployment를 설치하기 위해 플랫폼 설치 자동화 웹 화면에서
 1.	Warden 환경일 경우 아래의 정보를 입력 후 “다음” 버튼을 클릭한다.
 2.	인스턴스 수가 늘어나게 되면 해당 수만큼 네트워크 대역이 필요해 네트워크 할당 대역을 늘려줄 필요가 있다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%A0%95%EB%B3%B4).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%A0%95%EB%B3%B4).png?raw=true)
 
 ※	CF-Deployment Key 생성 등록 정보
 
@@ -442,4 +442,4 @@ CF-Deployment를 설치하기 위해 플랫폼 설치 자동화 웹 화면에서
 
 1.	생성된 배포 Manifest파일 정보를 이용하여 CF-Deployment설치를 실행하고 설치 진행 과정에 대한 로그를 확인한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EC%84%A4%EC%B9%98).png?raw=true)
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EC%84%A4%EC%B9%98).png?raw=true)
