@@ -252,7 +252,7 @@ BOOTSTRAP 설치하기 위해 플랫폼 설치 자동화 웹 화면에서 “플
 
 1.	아래의 기본 정보 입력 후 “다음” 버튼을 클릭한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/bootstrap%ED%8C%9D%EC%97%85%EC%B0%BD(%EA%B8%B0%EB%B3%B8%EC%A0%95%EB%B3%B4).png?raw=true)
+![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/bootstrap%ED%8C%9D%EC%97%85%EC%B0%BD(%EA%B8%B0%EB%B3%B8%EC%A0%95%EB%B3%B4%EB%82%B4%EC%97%AD).png?raw=true)
 
 ※	BOOTSTRAP 기본 정보 입력 정보
 
@@ -333,7 +333,7 @@ BOSH를 설치하고 플랫폼 설치 자동화의 디렉터로 설정이 완료
 
 플랫폼 설치 자동화에서 다운받은 스템셀을 “스템셀 업로드” 화면을 통해 디렉터에 315.64 버전의 스템셀을 업로드 한다. (먼저 스템셀 관리에서 bosh-warden-boshlite-ubuntu-xenial-go_agent 315.64를 다운로드 한다.)
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/%EC%8A%A4%ED%85%9C%EC%85%80%EC%97%85%EB%A1%9C%EB%93%9C.png?raw=true)
+![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/%EC%8A%A4%ED%85%9C%EC%85%80%20%EC%97%85%EB%A1%9C%EB%93%9C.png?raw=true)
 
 ### 2.5.2 *PaaS-TA 릴리즈 사용*
 
@@ -446,4 +446,4 @@ CF-Deployment를 설치하기 위해 플랫폼 설치 자동화 웹 화면에서
 
 1.	생성된 배포 Manifest파일 정보를 이용하여 CF-Deployment설치를 실행하고 설치 진행 과정에 대한 로그를 확인한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EC%84%A4%EC%B9%98).png?raw=true)
+![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EC%84%A4%EC%B9%98).jpg?raw=true)
