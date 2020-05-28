@@ -165,29 +165,7 @@ BOOTSTRAP을 설치하기 위해서는 BOSH 릴리즈와 BOSH CPI릴리즈 2개�
 
 **본 가이드에서는 v40.0.0을 다운로드 하였다.**
 
-#### 3. *VIRTUALBOX-CPI 릴리즈*
-
-1.	릴리즈 등록 팝업화면에서 BPM릴리즈 정보를 입력하고, “등록” 버튼 클릭한다.
-2.	VIRTUALBOX-CPI 릴리즈 참조 사이트
-
-    https://bosh.io/releases/github.com/cppforlife/bosh-virtualbox-cpi-release?all=1
-
-![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(vr).png?raw=true)
-
-**본 가이드에서는 v0.2.0을 다운로드 하였다.**
-
-#### 4. *GARDEN-RUNC 릴리즈*
-
-1.	릴리즈 등록 팝업화면에서 BPM릴리즈 정보를 입력하고, “등록” 버튼 클릭한다.
-2.	GARDEN-RUNC 릴리즈 참조 사이트
-
-    https://bosh.io/releases/github.com/cloudfoundry/garden-runc-release?all=1
-
-![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(garden).png?raw=true)
-
-**본 가이드에서는 v1.19.3을 다운로드 하였다.**
-
-#### 5. *BPM 릴리즈*
+#### 3. *BPM 릴리즈*
 
 1.	릴리즈 등록 팝업화면에서 BPM릴리즈 정보를 입력하고, “등록” 버튼 클릭한다.
 2.	BPM 릴리즈 참조 사이트
@@ -198,7 +176,7 @@ BOOTSTRAP을 설치하기 위해서는 BOSH 릴리즈와 BOSH CPI릴리즈 2개�
 
 **본 가이드에서는 v1.1.0을 다운로드 하였다.**
 
-#### 6. *OS CONF 릴리즈*
+#### 4. *OS CONF 릴리즈*
 
 1.	릴리즈 등록 팝업화면에서 OS CONF 릴리즈 정보를 입력하고, “등록” 버튼 클릭한다.
 2.	OS CONF 릴리즈 참조 사이트
@@ -208,6 +186,29 @@ BOOTSTRAP을 설치하기 위해서는 BOSH 릴리즈와 BOSH CPI릴리즈 2개�
 ![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(os-conf).png?raw=true)
 
 **본 가이드에서는 v21.0.0을 다운로드 하였다.**
+
+
+#### 5. *VIRTUALBOX-CPI 릴리즈*
+
+1.	릴리즈 등록 팝업화면에서 VIRTUALBOX-CPI 릴리즈 정보를 입력하고, “등록” 버튼 클릭한다.
+2.	VIRTUALBOX-CPI 릴리즈 참조 사이트
+
+    https://bosh.io/releases/github.com/cppforlife/bosh-virtualbox-cpi-release?all=1
+
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(vr).png?raw=true)
+
+**본 가이드에서는 v0.2.0을 다운로드 하였다.**
+
+#### 6. *GARDEN-RUNC 릴리즈*
+
+1.	릴리즈 등록 팝업화면에서 GARDEN-RUNC 릴리즈 정보를 입력하고, “등록” 버튼 클릭한다.
+2.	GARDEN-RUNC 릴리즈 참조 사이트
+
+    https://bosh.io/releases/github.com/cloudfoundry/garden-runc-release?all=1
+
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%93%B1%EB%A1%9D(garden).png?raw=true)
+
+**본 가이드에서는 v1.19.3을 다운로드 하였다.**
 
 ### <div id='13'/>2.4.3 *디렉터 인증서 생성*
 
