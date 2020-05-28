@@ -446,4 +446,4 @@ CF-Deployment를 설치하기 위해 플랫폼 설치 자동화 웹 화면에서
 
 1.	생성된 배포 Manifest파일 정보를 이용하여 CF-Deployment설치를 실행하고 설치 진행 과정에 대한 로그를 확인한다.
 
-![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EC%84%A4%EC%B9%98).jpg?raw=true)
+![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/cf%ED%8C%9D%EC%97%85%EC%B0%BD(%EC%84%A4%EC%B9%98).png?raw=true)
