@@ -212,4 +212,4 @@ CF & Diego Document:
 ### 4. 플랫폼 설치 자동화 메뉴얼
 
 - 플랫폼 설치 자동화의 메뉴얼
-  - [플랫폼 설치 자동화 사용 메뉴얼 가이드](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/README.md)
+  - [플랫폼 설치 자동화 사용 메뉴얼 가이드](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/platform/PAAS-TA_PLATFORM_INSTALL_AUTOMATION_USE_MANUAL_v1.0.md)
