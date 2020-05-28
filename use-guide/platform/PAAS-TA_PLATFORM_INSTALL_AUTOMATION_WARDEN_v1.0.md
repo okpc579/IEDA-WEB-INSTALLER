@@ -317,14 +317,24 @@ BOSH를 설치하고 플랫폼 설치 자동화의 디렉터로 설정이 완료
 
 ### <div id='17'/>2.5.1 *스템셀 업로드*
 
-플랫폼 설치 자동화에서 다운받은 스템셀을 “스템셀 업로드” 화면을 통해 디렉터에 315.64 버전의 스템셀을 업로드 한다. (먼저 스템셀 관리에서 bosh-warden-boshlite-ubuntu-xenial-go_agent 315.64를 다운로드 한다.)
+스템셀 관리에서 추가로 bosh-warden-boshlite-ubuntu-xenial-go_agent 315.64를 다운로드 한다.
+
+https://bosh.io/stemcells/bosh-warden-boshlite-ubuntu-xenial-go_agent
+
+**가이드에서는 버전 Ubuntu Xenial 315.64를 다운로드 하였다.**
+
+![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/bootstrap/%EC%8A%A4%ED%85%9C%EC%85%80%EB%93%B1%EB%A1%9D.png?raw=true)
+
+
+플랫폼 설치 자동화에서 다운받은 vsphere(X) warden(O) 스템셀을 “스템셀 업로드” 화면을 통해 디렉터에 315.64 버전의 스템셀을 업로드 한다. 
+
 
 ![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/install-guide/warden/cf/%EC%8A%A4%ED%85%9C%EC%85%80%20%EC%97%85%EB%A1%9C%EB%93%9C.png?raw=true)
 
 ### 2.5.2 *PaaS-TA 릴리즈 사용*
 
 ※	해당 절차는 PaaS-TA를 설치하기 위해 반드시 필요한 Compiled Local 릴리즈를 다운로드하는 절차이다. PaaS-TA를 설치하기 위해 필요한 절차이다.
-※	플랫폼 설치 자동화를 통해 배포 가능한 PaaS-TA 버전에 맞는 릴리즈와 스템셀을 PaaS-TA 공식 홈페이지 https://paas-ta.kr/download/package에서 다운로드 받는다.
+※	플랫폼 설치 자동화를 통해 배포 가능한 PaaS-TA 버전에 맞는 릴리즈와 스템셀을 PaaS-TA 공식 홈페이지 https://paas-ta.kr/download/package 에서 다운로드 받는다.
 
 1.	PaaS-TA 릴리즈 사용
 
