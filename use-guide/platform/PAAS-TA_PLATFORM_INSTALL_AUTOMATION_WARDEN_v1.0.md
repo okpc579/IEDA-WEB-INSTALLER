@@ -104,6 +104,8 @@ BOSH는 클라우드 환경에 서비스를 배포하고 소프트웨어 릴리�
 
 플랫폼 설치 자동화를 이용하여 BOOTSTRAP을 설치하고, 디렉터로 등록하는 절차는 다음과 같다.
 
+![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/bootstrap_flow.png?raw=true)
+
 ### <div id='10'/>2.4.1 *스템셀 다운로드*
 
 플랫폼 설치 자동화 웹 화면에서 “환경설정 및 관리” -> “스템셀 관리” 메뉴로 이동한다. “스템셀 관리” 메뉴에서는 Cloud Foundry에서 제공하는 공개 스템셀을 다운로드할 수 있는 기능을 제공한다.
