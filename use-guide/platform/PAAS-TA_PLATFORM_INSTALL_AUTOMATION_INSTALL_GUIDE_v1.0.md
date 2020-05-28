@@ -180,7 +180,7 @@ CF & Diego Document:
 
 ### 4.  플랫폼 설치 자동화 설치 및 서비스 등록
 
-	$ cd IEDA-WEB-INSTALLER
+	$ cd IEDA-WEB-INSTALLER-5.0
 	$ ./deployer-install.sh <OPENPAAS-IEDA-WEB-5.0.zip 파일이 있는 경로>/OPENPAAS-IEDA-WEB-5.0.zip <mysql 비밀번호> (delete)
 	
 	ex)
