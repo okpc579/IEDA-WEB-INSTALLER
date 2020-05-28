@@ -269,7 +269,7 @@ BOOTSTRAP 설치하기 위해 플랫폼 설치 자동화 웹 화면에서 “플
 
 ※	BOOTSTRAP 네트워크 등록 정보
 
-  -  Internal디렉터 내부 IP: Warden Internal Subnet 대역의 아이피, 디렉터 인증서 생성 정보와 같아야 한다.
+  - Internal 디렉터 내부 IP: Warden Internal Subnet 대역의 아이피, 디렉터 인증서 생성 정보와 같아야 한다.
   - Internal 네트워크 명: Internal 네트워크의 네트워크 명
   - Internal 아웃바운드 네트워크 명: Internal 네트워크의 아웃바운드 네트워크 명
   - Internal 서브넷 범위: Internal 네트워크의 Subnet의 범위
