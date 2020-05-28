@@ -321,7 +321,7 @@ BOSH를 설치하고 플랫폼 설치 자동화의 디렉터로 설정이 완료
 
 스템셀 관리에서 추가로 bosh-warden-boshlite-ubuntu-xenial-go_agent 315.64를 다운로드 한다.
 
-https://bosh.io/stemcells/bosh-warden-boshlite-ubuntu-xenial-go_agent
+	https://bosh.io/stemcells/bosh-warden-boshlite-ubuntu-xenial-go_agent
 
 **가이드에서는 버전 Ubuntu Xenial 315.64를 다운로드 하였다.**
 
