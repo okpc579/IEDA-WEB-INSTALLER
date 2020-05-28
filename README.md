@@ -165,7 +165,7 @@ CF & Diego Document:
 
 [다운로드](https://github.com/okpc579/IEDA-WEB-INSTALLER/archive/5.0.zip)
 
-	  IEDA-WEB-INSTALLER-v5.0.tar
+	  IEDA-WEB-INSTALLER-5.0.zip
 	  
 	  
 [다운로드](https://github.com/okpc579/OPENPAAS-IEDA-WEB/archive/5.0.zip)
