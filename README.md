@@ -147,7 +147,7 @@ CF & Diego Document:
 
 ## <div id='7'/>2.2.  플랫폼 설치 자동화 설치
 
--   플랫폼 설치 자동화 설치는 ubuntu(16.04 이상)에서 실행 된다.
+-   플랫폼 설치 자동화 설치는 ubuntu(18.04 이상)에서 실행 된다.
 -   본 가이드는 Inception 스펙 2Core, Memory 16G, Disk 80G에서 플랫폼 설치 자동화를 설치 및 운영하였다.
 
 ### 1.  플랫폼 설치 자동화 설치 구성
@@ -161,7 +161,7 @@ CF & Diego Document:
 | bosh                | BOSH CLI 실행 파일                  |
 
 
-### 2.  플랫폼 설치 자동화 설치(IEDA-WEB-INSTALLER) 모듈과 플랫폼 설치 자동화(OPENPAAS-IEDA-WEB) 모듈을 다운로드 받는다.(PaaSTA-Env)
+### 2.  플랫폼 설치 자동화 설치(IEDA-WEB-INSTALLER) 모듈과 플랫폼 설치 자동화(OPENPAAS-IEDA-WEB) 모듈을 다운로드 받는다.(PaaS-TA-Env)
 
 [다운로드](https://paas-ta.kr/download/package)
 
