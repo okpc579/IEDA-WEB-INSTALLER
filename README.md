@@ -161,28 +161,32 @@ CF & Diego Document:
 | bosh                | BOSH CLI 실행 파일                  |
 
 
-### 2.  플랫폼 설치 자동화 설치(IEDA-WEB-INSTALLER) 모듈과 플랫폼 설치 자동화(OPENPAAS-IEDA-WEB) 모듈을 다운로드 받는다.(PaaS-TA-Env)
+### 2.  플랫폼 설치 자동화 설치(IEDA-WEB-INSTALLER) 모듈과 플랫폼 설치 자동화(OPENPAAS-IEDA-WEB) 모듈을 다운로드 받는다.
 
-[다운로드](https://paas-ta.kr/download/package)
+[다운로드](https://github.com/okpc579/IEDA-WEB-INSTALLER/archive/5.0.zip)
 
 	  IEDA-WEB-INSTALLER-v5.0.tar
-	  OPENPAAS-IEDA-WEB-v5.0.tar
+	  
+	  
+[다운로드](https://github.com/okpc579/OPENPAAS-IEDA-WEB/archive/5.0.zip)
+	  
+	  OPENPAAS-IEDA-WEB-5.0.zip
 
 
 ### 3.  다운로드 받은 IEDA-WEB-INSTALLER-v5.0.tar 파일을 Home 디렉토리에 압축을 푼다.
 
-  	$ tar xvf IEDA-WEB-INSTALLER-v5.0.tar -C ~/
+  	$ tar xvf IEDA-WEB-INSTALLER-5.0.zip -C ~/
 
 
 ### 4.  플랫폼 설치 자동화 설치 및 서비스 등록
 
 	$ cd IEDA-WEB-INSTALLER
-	$ ./deployer-install.sh <OPENPAAS_IEDA_WEB-v5.0.tar 파일이 있는 경로>/OPENPAAS_IEDA_WEB-v5.0.tar <mysql 비밀번호> (delete)
+	$ ./deployer-install.sh <OPENPAAS-IEDA-WEB-5.0.zip 파일이 있는 경로>/OPENPAAS-IEDA-WEB-5.0.zip <mysql 비밀번호> (delete)
 	
 	ex)
-	$ ./deployer-install.sh ~/Downloads/OPENPAAS_IEDA_WEB-v5.0.tar 1q2w3e4r5t
+	$ ./deployer-install.sh ~/Downloads/OPENPAAS-IEDA-WEB-5.0.zip 1q2w3e4r5t
 	ex)
-	$ ./deployer-install.sh ~/Downloads/OPENPAAS_IEDA_WEB-v5.0.tar 1q2w3e4r5t delete
+	$ ./deployer-install.sh ~/Downloads/OPENPAAS-IEDA-WEB-5.0.zip 1q2w3e4r5t delete
 
 명령어에 delete 추가 시 DB 삭제 후 DB를 재설치 한다.
 
