@@ -325,6 +325,7 @@ BOSH를 설치하고 플랫폼 설치 자동화의 디렉터로 설정이 완료
 	https://bosh.io/stemcells/bosh-warden-boshlite-ubuntu-xenial-go_agent
 
 **가이드에서는 버전 Ubuntu Xenial 315.64를 다운로드 하였다.**
+**warden-boshlite 스템셀을 다운받을 때 다운 유형에서 로컬에서 선택이나 스템셀 Url**
 
 ![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EC%8A%A4%ED%85%9C%EC%85%80%EB%93%B1%EB%A1%9D.png?raw=true)
 
