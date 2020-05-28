@@ -188,7 +188,7 @@ CF & Diego Document:
 	ex)
 	$ ./deployer-install.sh ~/Downloads/OPENPAAS-IEDA-WEB-5.0.zip 1q2w3e4r5t delete
 
-명령어에 delete 추가 시 DB 삭제 후 DB를 재설치 한다.
+명령어에 delete 추가 시 기존 추가되어있던 DB를 삭제 후 재설치 한다.
 
 # <div id='8'/>3.  플랫폼 설치 자동화 매뉴얼
 
