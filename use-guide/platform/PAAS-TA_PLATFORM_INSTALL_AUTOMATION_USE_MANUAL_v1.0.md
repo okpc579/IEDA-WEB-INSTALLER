@@ -125,7 +125,7 @@
 # <div id='6'/>2.3.  플랫폼 설치 자동화 사용 & 활용 가이드
 [플랫폼 설치 자동화를 통해 AWS PaaS-TA 설치 가이드](https://github.com/PaaS-TA/Guide-5.0-Ravioli/blob/master/use-guide/platform/PAAS-TA_PLATFORM_INSTALL_AUTOMATION_AWS_v1.0.md)
 
-[플랫폼 설치 자동화를 통해 Openstack PaaS-TA 설치 가이드](./PAAS-TA_PLATFORM_INSTALL_AUTOMATION_OPENSTACK_v1.0.md)
+[플랫폼 설치 자동화를 통해 Openstack PaaS-TA 설치 가이드](https://github.com/PaaS-TA/Guide-5.0-Ravioli/blob/master/use-guide/platform/PAAS-TA_PLATFORM_INSTALL_AUTOMATION_OPENSTACK_v1.0.md)
 
 [플랫폼 설치 자동화를 통해 Azure PaaS-TA 설치 가이드](https://github.com/PaaS-TA/Guide-5.0-Ravioli/blob/master/use-guide/platform/PAAS-TA_PLATFORM_INSTALL_AUTOMATION_AZURE_v1.0.md)
 
@@ -135,7 +135,7 @@
 
 [플랫폼 설치 자동화를 통해 Warden PaaS-TA 설치 가이드](./PAAS-TA_PLATFORM_INSTALL_AUTOMATION_WARDEN_v1.0.md)
 
-[PaaS-TA 설치 완료 후 플랫폼 설치 자동화 활용 가이드](./PAAS-TA_PLATFORM_INSTALL_AUTOMATION_UTIL_MANUAL_v1.0.md)
+[PaaS-TA 설치 완료 후 플랫폼 설치 자동화 활용 가이드](https://github.com/PaaS-TA/Guide-5.0-Ravioli/blob/master/use-guide/platform/PAAS-TA_PLATFORM_INSTALL_AUTOMATION_UTIL_MANUAL_v1.0.md)
 
 [이종 플랫폼 설치 자동화를 통해 AWS-Openstack PaaS-TA 설치 가이드](https://github.com/PaaS-TA/Guide-5.0-Ravioli/blob/master/use-guide/platform/PaaS-TA_INSTALL_AUTOMATION_USE_GUIDE_HYBRID_%5BOPS_AWS%5D_v1.0.md)
 
