@@ -173,9 +173,9 @@ CF & Diego Document:
 	  OPENPAAS-IEDA-WEB-5.0.zip
 
 
-### 3.  다운로드 받은 IEDA-WEB-INSTALLER-v5.0.tar 파일을 Home 디렉토리에 압축을 푼다.
+### 3.  다운로드 받은 IEDA-WEB-INSTALLER-5.0.zip 파일을 Home 디렉토리에 압축을 푼다.
 
-  	$ tar xvf IEDA-WEB-INSTALLER-5.0.zip -C ~/
+  	$ unzip IEDA-WEB-INSTALLER-5.0.zip -C ~/
 
 
 ### 4.  플랫폼 설치 자동화 설치 및 서비스 등록
