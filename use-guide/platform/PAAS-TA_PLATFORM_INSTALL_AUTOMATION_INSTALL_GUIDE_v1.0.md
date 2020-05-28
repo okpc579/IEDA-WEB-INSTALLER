@@ -1,14 +1,16 @@
 ## Table of Contents
 
 1. [개요](#1)
+
   * [목적](#2)
   * [범위](#3)
   * [참고자료](#4)
+
 2. [플랫폼 설치 자동화 실행 환경 구성](#5)
-	* [실행 환경을 위한 패키지 설치](#6)
-	* [Ruby 및 BOSH 의존패키지 통합 설치](#7)
+   * [실행 환경을 위한 패키지 설치](#6)
+   * [Ruby 및 BOSH 의존패키지 통합 설치](#7)
 3. [플랫폼 설치 자동화 메뉴얼](#8)
-	* [플랫폼 설치 자동화 실행](#9)
+   * [플랫폼 설치 자동화 실행](#9)
 
 
 ## Executive Summary
@@ -18,6 +20,7 @@
 본 문서는 다음과 같은 내용들을 포함한다.
 
 #### 플랫폼 설치 자동화 실행 환경 구성
+
 -	ruby
 -	bosh_cli
 -	spiff
@@ -30,14 +33,17 @@
 # <div id='1'/>1.  문서 개요
 
 ## <div id='2'/>1.1.  목적
+
 본 문서는 플랫폼 설치 자동화 시스템의 설치를 위한 환경 구성에 대해
 기술하였다.
 
 ## <div id='3'/>1.2.  범위
+
 본 문서에서는 Linux 환경(Ubuntu 18.04)을 기준으로 인프라 환경에 플랫폼
 설치 자동화의 설치하는 방법에 대해 작성되었다.
 
 Openstack을 통해 PaaS-TA 5.0을 배포 할 경우 지원이 검증 된 Openstack 버전의 범위는 아래와 같다.
+
 <table>
 <tr>
 <td>Openstack Version</td>
@@ -87,6 +93,7 @@ Openstack을 통해 PaaS-TA 5.0을 배포 할 경우 지원이 검증 된 Openst
 </tr>
 
 
+
 <td rowspan="5">pike</td>
 <td>Identify</td>
 <td>v3</td>
@@ -128,10 +135,11 @@ CF & Diego Document:
 인프라 환경에 설치한 가상머신에 실행환경을 구성한다. 환경 구성에 있어서 전제조건으로 가상머신은 외부와 통신이 가능해야 한다.
 
 플랫폼 설치 자동화의 실행환경을 구성하기 위해 다음의 패키지를 플랫폼 설치 자동화 설치 스크립트를 통해 자동으로 설치한다.
+
 -	Ruby (1.9.3 이상)
 -	bosh_cli (cli v2 이상)
--   make
--   ruby (2.3.1 이상)
+-	make
+-	ruby (2.3.1 이상)
 -	Java (1.8 이상)
 -	maven
 -	mysql
@@ -153,28 +161,32 @@ CF & Diego Document:
 | bosh                | BOSH CLI 실행 파일                  |
 
 
-### 2.  플랫폼 설치 자동화 설치(IEDA-WEB-INSTALLER) 모듈과 플랫폼 설치 자동화(OPENPAAS-IEDA-WEB) 모듈을 다운로드 받는다.(PaaS-TA-Env)
+### 2.  플랫폼 설치 자동화 설치(IEDA-WEB-INSTALLER) 모듈과 플랫폼 설치 자동화(OPENPAAS-IEDA-WEB) 모듈을 다운로드 받는다.
 
-[다운로드](https://paas-ta.kr/download/package)
+[다운로드](https://github.com/okpc579/IEDA-WEB-INSTALLER/archive/5.0.zip)
 
-	  IEDA-WEB-INSTALLER-v5.0.tar
-	  OPENPAAS-IEDA-WEB-v5.0.tar
+	  IEDA-WEB-INSTALLER-5.0.zip
+	  
+	  
+[다운로드](https://github.com/okpc579/OPENPAAS-IEDA-WEB/archive/5.0.zip)
+	  
+	  OPENPAAS-IEDA-WEB-5.0.zip
 
 
 ### 3.  다운로드 받은 IEDA-WEB-INSTALLER-v5.0.tar 파일을 Home 디렉토리에 압축을 푼다.
 
-  	$ tar xvf IEDA-WEB-INSTALLER-v5.0.tar -C ~/
+  	$ tar xvf IEDA-WEB-INSTALLER-5.0.zip -C ~/
 
 
 ### 4.  플랫폼 설치 자동화 설치 및 서비스 등록
 
 	$ cd IEDA-WEB-INSTALLER
-	$ ./deployer-install.sh <OPENPAAS_IEDA_WEB-v5.0.tar 파일이 있는 경로>/OPENPAAS_IEDA_WEB-v5.0.tar <mysql 비밀번호> (delete)
+	$ ./deployer-install.sh <OPENPAAS-IEDA-WEB-5.0.zip 파일이 있는 경로>/OPENPAAS-IEDA-WEB-5.0.zip <mysql 비밀번호> (delete)
 	
 	ex)
-	$ ./deployer-install.sh ~/Downloads/OPENPAAS_IEDA_WEB-v5.0.tar 1q2w3e4r5t
+	$ ./deployer-install.sh ~/Downloads/OPENPAAS-IEDA-WEB-5.0.zip 1q2w3e4r5t
 	ex)
-	$ ./deployer-install.sh ~/Downloads/OPENPAAS_IEDA_WEB-v5.0.tar 1q2w3e4r5t delete
+	$ ./deployer-install.sh ~/Downloads/OPENPAAS-IEDA-WEB-5.0.zip 1q2w3e4r5t delete
 
 명령어에 delete 추가 시 DB 삭제 후 DB를 재설치 한다.
 
@@ -202,5 +214,6 @@ CF & Diego Document:
 ![](https://github.com/okpc579/OPENPAAS-IEDA-WEB/blob/bosh/use-guide/platform/images/login.png?raw=true)
 
 ### 4. 플랫폼 설치 자동화 메뉴얼
+
 - 플랫폼 설치 자동화의 메뉴얼
   - [플랫폼 설치 자동화 사용 메뉴얼 가이드](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/platform/PAAS-TA_PLATFORM_INSTALL_AUTOMATION_USE_MANUAL_v1.0.md)
