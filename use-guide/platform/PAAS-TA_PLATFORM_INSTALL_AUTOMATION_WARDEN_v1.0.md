@@ -320,7 +320,7 @@ BOSH를 설치하고 플랫폼 설치 자동화의 디렉터로 설정이 완료
 
 ### <div id='17'/>2.5.1 *스템셀 업로드*
 
-스템셀 관리에서 추가로 bosh-warden-boshlite-ubuntu-xenial-go_agent 315.64를 다운로드 한다.
+스템셀 관리에서 추가로 bosh-**warden-boshlite**-ubuntu-xenial-go_agent 315.64를 다운로드 한다.
 
 	https://bosh.io/stemcells/bosh-warden-boshlite-ubuntu-xenial-go_agent
 
@@ -329,7 +329,7 @@ BOSH를 설치하고 플랫폼 설치 자동화의 디렉터로 설정이 완료
 ![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/%EC%8A%A4%ED%85%9C%EC%85%80%EB%93%B1%EB%A1%9D.png?raw=true)
 
 
-플랫폼 설치 자동화에서 다운받은 vsphere(X) warden(O) 스템셀을 “스템셀 업로드” 화면을 통해 디렉터에 315.64 버전의 스템셀을 업로드 한다. 
+플랫폼 설치 자동화에서 다운받은 **warden-boshlite** 스템셀을 “스템셀 업로드” 화면을 통해 디렉터에 315.64 버전의 스템셀을 업로드 한다. 
 
 
 ![](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/cf/%EC%8A%A4%ED%85%9C%EC%85%80%20%EC%97%85%EB%A1%9C%EB%93%9C.png?raw=true)
