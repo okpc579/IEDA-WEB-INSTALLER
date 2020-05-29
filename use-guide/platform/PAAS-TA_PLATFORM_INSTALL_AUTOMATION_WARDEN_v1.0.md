@@ -39,7 +39,7 @@ BOSH는 클라우드 환경에 서비스를 배포하고 소프트웨어 릴리�
 
 플랫폼 설치 자동화를 이용해서 클라우드 환경에 PaaS-TA를 설치하기 위해서는 인프라 설정, 스템셀 소프트웨어 릴리즈, Manifest 파일, 인증서 파일 5가지 요소가 필요하다. 스템셀은 클라우드 환경에 VM을 생성하기 위해 사용할 기본 이미지이고, 소프트웨어 릴리즈는 VM에 설치할 소프트웨어 패키지들을 묶어 놓은 파일이고, Manifest파일은 스템셀과 소프트웨어 릴리즈를 이용해서 서비스를 어떤 식으로 구성할지를 정의해 놓은 명세서이다. 다음 그림은 BOOTSTRAP을 이용하여 PaaS-TA를 설치하는 절차이다.
 
-![install_flow.png](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/install_flow.png?raw=true)
+![install_flow.png](https://github.com/okpc579/IEDA-WEB-INSTALLER/blob/master/use-guide/images/bootstrap/install-flow.png?raw=true)
 
 ## <div id='5'/>2.1  플랫폼 설치 자동화 관리
 
