@@ -37,6 +37,15 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "thansrb",
+      "name": "thansrb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31251109?v=4",
+      "profile": "https://github.com/thansrb",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
