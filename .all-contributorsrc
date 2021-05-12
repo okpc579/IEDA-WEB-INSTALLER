@@ -3,7 +3,7 @@
     "README.md"
   ],
   "imageSize": 100,
-  "commit": false,
+  "commit": true,
   "contributors": [
     {
       "login": "jakebolam",
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "contributorsPerLine": 1,
+  "contributorsPerLine": 7,
   "projectName": "IEDA-WEB-INSTALLER",
   "projectOwner": "okpc579",
   "repoType": "github",
