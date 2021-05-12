@@ -37,6 +37,17 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "jinhyojin",
+      "name": "jinhyojin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76993633?v=4",
+      "profile": "https://github.com/jinhyojin",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
